@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin:0;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.ovp-hid {
+  -ms-overflow-style: none;  /*IE and Edge*/
+  scrollbar-width: none;  /*Firefox*/
+}
+
+.ovp-hid::-webkit-scrollbar{
+  display: none;
+}
